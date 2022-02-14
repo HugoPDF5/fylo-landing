@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue-intro-email: hsl(217, 28%, 15%);
+    --dark-blue-main: hsl(218, 28%, 13%);
+    --dark-blue-footer: hsl(216, 53%, 9%);
+    --dark-blue-testimonials: hsl(219, 30%, 18%);
+
+    --cyan:hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 64px;
+    align-items: center;
+    background-color: var(--dark-blue-intro-email);
+}
+
+header button{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 400;
+   margin-left: 32px;
+   background: none;
+   border: none;
+   padding: 0;
+   font: inherit;
+   outline: inherit;
+   color: var(--white);
+}
+
+header button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--dark-blue-main);
+}
+
+h1, h2, h4, h5 {
+    font-weight: 700;
+    color: var(--white);
+}
+
+p {
+    font-weight: 400;
+    color: var(--white);
+}
+
+main .intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 128px;
+}
+
+main .intro img {
+    width: 500px;
+    margin-bottom: 32px;
+}
+
+main .intro h1 {
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    margin-bottom: 32px;
+}
+
+main .intro p {
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+main .intro button {
+    color: var(--white);
+    padding: 16px;
+    background-image: linear-gradient(var(--cyan),var(--blue));
+    width: 250px;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+   
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    margin: 0 auto;
+    gap: 100px;
+    margin-bottom: 128px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.grid-item img,
+.grid-item h2 {
+    margin-bottom: 16px;
+}
+
+.grid-item p {
+    text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.grid-2 .info {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
