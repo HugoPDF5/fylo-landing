@@ -6,18 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div class="logo">
-      <img src="images/logo.svg" alt="aa">
+      <img src="images/logo.svg" alt="">
     </div>
 
     <nav>
-      <button>Features</button>
-      <button>Team</button>
-      <button>Sign in</button>
+      <a href="">
+        <button>Features</button>
+      </a>
+      <a href="">
+        <button>Team</button>
+      </a>
+      <a href="">
+        <button>Sign in</button>
+      </a>
     </nav>
   </header>
 
@@ -25,16 +36,16 @@
 
     <div class="intro">
       <img src="images/illustration-intro.png" alt="">
-      <h1>All yout files in one secure location accessible anywhere</h1>
-      <p>Fylo stores all your most important files in one secure location.
-        Acess them wherever you need, share and collaborate with friends family, and co-workers
+      <h1>All yout files in one secure location, <br> accessible anywhere.</h1>
+      <p>Fylo stores all your most important files in one secure location. <br>
+        Acess them wherever you need, share and collaborate with <br> friends family, and co-workers.
       </p>
       <button>Get Started</button>
     </div>
 
 
     <div class="grid">
-      <div>
+      <div class="grid-item">
         <img src="/images/icon-access-anywhere.svg" alt="">
         <h2 class="title-grid">Acess your files, anywhere</h2>
         <p class="description-grid">The ability to use a smartphone, tablet, or computer to acess your account means
@@ -42,7 +53,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="grid-item">
         <img src="/images/icon-security.svg" alt="">
         <h2 class="title-grid">Security you can trust</h2>
         <p class="description-grid">2-factor authentication and user-controlled encryption are just a couple of the
@@ -50,7 +61,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="grid-item">
         <img src="/images/icon-collaboration.svg" alt="">
         <h2 class="title-grid">Real-time collaboration</h2>
         <p class="description-grid">Securely share files and folders with friends, family and colleagues for live
@@ -58,7 +69,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="grid-item">
         <img src="/images/icon-any-file.svg" alt="">
         <h2 class="title-grid">Store any type of file</h2>
         <p class="description-grid">Whether you're sharing holidays photos or work documents, Fylo has you covered
