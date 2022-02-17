@@ -89,7 +89,8 @@ main .intro p {
     margin-bottom: 32px;
 }
 
-main .intro button {
+main .intro button,
+.sign-up .action button {
     color: var(--white);
     padding: 16px;
     background-image: linear-gradient(var(--cyan),var(--blue));
@@ -179,6 +180,7 @@ main .intro button {
     justify-content: space-around;
     width: 100%;
     margin-top: 96px;
+    margin-bottom: 96px;
 }
 
 .quotes {
@@ -217,4 +219,78 @@ main .intro button {
     padding-bottom: 32px;
     font-size: 12px;
     font-weight: 400;
+}
+
+.sign-up {
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 800px;
+    justify-content: space-around;
+    background-color: var(--dark-blue-intro-email);
+    border: 1px solid transparent;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.sign-up h1 {
+    margin: 0 auto;
+}
+
+.sign-up p {
+    text-align: center;
+    line-height: 24px;
+}
+
+.sign-up .action input {
+    border-radius: 50px;
+    border: none;
+    width: 60%;
+    height: 45px;
+    padding-left: 24px;
+    margin-right: 24px;
+}
+
+footer {
+    background-color: var(--dark-blue-footer);
+    height: 500px;
+}
+
+footer .info {
+    padding: 64px;
+    display: flex;
+    gap: 16px;
+
+}
+
+.address {
+    max-width: 45%;
+}
+
+.address img .logo {
+    display: block;
+}
+
+.address > div {
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.address > div > p {
+   max-width: 50%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
