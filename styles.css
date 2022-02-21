@@ -259,38 +259,57 @@ footer {
 }
 
 footer .info {
-    padding: 64px;
-    display: flex;
-    gap: 16px;
+    padding: 196px 64px 64px 64px;
+}
 
+footer .logo-header {
+    height: 100%;
+ }
+
+footer .container-footer {
+    display: flex;
+    margin-top: 16px;
+  
 }
 
 .address {
-    max-width: 45%;
-}
-
-.address img .logo {
-    display: block;
+    max-width: 300px;
 }
 
 .address > div {
-    margin-top: 24px;
     display: flex;
     gap: 8px;
     align-items: flex-start;
 }
 
 .address > div > p {
-   max-width: 50%;
+   margin-left: 8px;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 150px;
+    gap: 16px;
 }
 
-.contact .tel {
+.contact .tel,
+.contact .email {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+
+.links {
+    margin-left: 150px;
+    width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    height: 120px;
 }
