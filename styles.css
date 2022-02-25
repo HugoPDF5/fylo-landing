@@ -47,6 +47,7 @@ body {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     background-color: var(--dark-blue-main);
+    
 }
 
 h1, h2, h4, h5 {
@@ -93,13 +94,18 @@ main .intro button,
 .sign-up .action button {
     color: var(--white);
     padding: 16px;
-    background-image: linear-gradient(var(--cyan),var(--blue));
+    background-image: linear-gradient(to right,var(--cyan),var(--blue));
     width: 250px;
     border-radius: 50px;
     border: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     cursor: pointer;
+}
+
+main .intro button:hover,
+.sign-up .action button:hover {
+    background-image: linear-gradient(to right,var(--cyan),var(--cyan));
 }
 
 .grid {
@@ -313,3 +319,13 @@ footer .container-footer {
     gap: 8px;
     height: 120px;
 }
+
+.links p {
+    cursor: pointer;
+}
+
+.links p:hover {
+    color: white;
+    font-weight: 700;
+}
+
